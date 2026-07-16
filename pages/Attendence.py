@@ -24,9 +24,9 @@ student_names = []
 for student in students:
 
     full_name = (
-        student["first_name"]
+        student["first_name "]
         + " "
-        + student["last_name"]
+        + student["last_name "]
     )
 
     student_names.append(full_name)
