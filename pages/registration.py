@@ -1,5 +1,5 @@
 import streamlit as st 
-from database.mongodb import students_collection
+from database.mongodb import Student_collection
 st.title("Student Register ")
 
 first_name = st.text_input("First_name ")
@@ -7,7 +7,7 @@ last_name = st.text_input("last_name ")
 email = st.text_input("email ")
 course = st.text_input("course")
 if st.button("Register student "):
-    students_collection.insert_one({
+    Student_collection.insert_one({
 
        "first_name ": first_name,
        "last_name ": last_name,
