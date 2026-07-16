@@ -6,9 +6,9 @@ try:
 
     client.admin.command("ping")
 
-    db = client["SSUS"]
+    db = client["SSUS1234"]
 
-    Student_collection = db["student"]
+    students_collection = db["student"]
     mark_collection = db ["marks"]
     attendance_collection = db["attendence"]
     bmi_collection = db["bmi reports"]
