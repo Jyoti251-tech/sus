@@ -8,7 +8,7 @@ try:
 
     db = client["SSUS1234"]
 
-    students_collection = db["student"]
+    Student_collection = db["student"]
     mark_collection = db ["marks"]
     attendance_collection = db["attendence"]
     bmi_collection = db["bmi reports"]
